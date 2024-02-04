@@ -1,0 +1,63 @@
+/* TOP SECTION */
+
+.aside{
+
+    width:80%;
+    padding: 20px;
+    background: rgb(4, 52, 4);
+    color: aliceblue;
+    border: 5px solid rgb(215, 239, 79);
+    margin-left: 2px;
+}
+
+/* MAIN SECTION */
+
+main img {
+    width: 200px;
+    height: auto;
+}
+p{
+padding: 0;
+
+}
+.mypic {
+	
+	float:right;
+}
+
+.nav{
+	background:navy;
+	color:white;
+	text-decoration:none;
+	padding:10px;
+	
+}
+.nav a{
+	color:white;
+	text-decoration:none;
+	word-spacing: 80px;
+	
+}
+h1{
+	
+color:navy;	
+}
+  
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+ 
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);  
+  padding: 20px;
+    background-color: lightgrey; 
+}
+
+.item1 {
+  grid-column: 1 / span 2;
+ 
+}
